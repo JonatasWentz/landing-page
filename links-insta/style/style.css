@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher', sans-serif;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    background: url(./imagens/abstract-5035778_960_720.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container{
+    max-width: 540px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    height: 100%;
+    justify-content: center;
+    display:flex ;
+    flex-direction: column;
+}
+
+.gradient{
+    background: linear-gradient(90deg, rgba(8,17,91,1) 0%, rgba(53,131,171,1) 54%, rgba(9,128,122,1) 100%);
+}
+
+.profile-picture{
+    width: 120px;
+    border-radius: 50%;
+}
+
+.username{
+    font-weight: 400;
+    font-size: 3em;
+    padding-bottom: 1.5rem;
+}
+
+.description{
+    font-size: 1.5em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+a img{
+    width: 1.5em;
+    padding-top: 0.1em;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    gap: 1.2em;
+}
+
+.list-item{
+    font-size: 1.2em;
+    height: 3em;
+    border-radius: 2em;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 45px;
+}
+
+footer{
+    display: flex;
+    gap: 1.5em;
+}
+
+.contact{
+    padding: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.contact img{
+    width: 1.8em;
+}
+
+@media screen and (min-width:815px) {
+    html {
+        font-size: 18px;
+    }
+}
